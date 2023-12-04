@@ -1,0 +1,31 @@
+@import "@fontsource/rock-salt/index.css";
+@import "@fontsource/numans/index.css";
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Numans", sans-serif;
+  line-height: 1.3;
+  background-color: #ffd90f;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  font-family: "Rock Salt", cursive;
+}
+
+img {
+  max-width: 100%;
+}
