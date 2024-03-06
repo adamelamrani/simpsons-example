@@ -6,6 +6,7 @@ import { AppComponent } from "./app.component";
 import { SharedModule } from "./shared/shared.module";
 import { CharactersListModule } from "./characters-list/characters-list.module";
 import { AboutModule } from "./about/about.module";
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
   declarations: [AppComponent],
@@ -15,6 +16,7 @@ import { AboutModule } from "./about/about.module";
     SharedModule,
     AboutModule,
     CharactersListModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
